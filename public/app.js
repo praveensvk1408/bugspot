@@ -30,7 +30,7 @@ fetch("./sample.json")
           console.log(error);
         });
 
-      document.getElementById("totalNum").innerHTML = totalNumber;
+      document.getElementById("totalnum").innerHTML = totalNumber;
       document.getElementById("successNum").innerHTML = successNumber;
       document.getElementById("failNum").innerHTML = failNumber;
       // console.log(fs.existsSync(homePath + testJob.name + "/microservices/webbff/test/e2e/goReportJSONFile/getProduct_output.json"))
