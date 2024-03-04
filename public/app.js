@@ -55,6 +55,5 @@ fetch("./sample.json")
     }
 
 
-    var ctx = document.getElementById('myChart').getContext('2d');
 
   });
