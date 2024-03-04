@@ -56,39 +56,5 @@ fetch("./sample.json")
 
 
     var ctx = document.getElementById('myChart').getContext('2d');
-    var myChart = new Chart(ctx, {
-      type: 'doughnut',
-      data: {
-        labels: ['Success', 'Fail'],
-        datasets: [{
-          label: 'Test Results',
-          data: [successNumber, failNumber],
-          backgroundColor: [
-            'rgba(0, 166, 102, 1)',
-            'rgba(255, 50, 0, 1)',
-          ],
-          borderWidth: 1
-        }]
-      },
-      options: {
-        aspectRatio: 1.4,
-        responsive: true,
-        // maintainAspectRatio: false,
-        cutout: "80%",
-      },
-      plugins: [{
-        afterDraw: (chart) => {
-          let ctx = chart.ctx;
-          ctx.save();
-          let centerX = (chart.chartArea.left + chart.chartArea.right) / 2;
-          let centerY = (chart.chartArea.top + chart.chartArea.bottom) / 2;
-          const text = (successNumber / totalNumber) * 100 + '%'
-          ctx.textAlign = 'center';
-          ctx.textBaseline = 'middle';
-          ctx.font = '32px Arial';
-          ctx.fillText(text, centerX, centerY);
-          ctx.restore();
-        }
-      }]
-    });
+
   });
