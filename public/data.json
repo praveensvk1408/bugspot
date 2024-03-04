@@ -1,57 +1,42 @@
 {
-  "01-02-2024":{
-    "total":4,
-    "passed":3,
-    "failed":1
+  "01-02-2024": {
+    "total": 4,
+    "passed": 3,
+    "failed": 1
   },
-  "02-02-2024":{
-    "total":6,
-    "passed":4,
-    "failed":2
+  "02-02-2024": {
+    "total": 6,
+    "passed": 4,
+    "failed": 2
   },
-  "03-02-2024":{
-    "total":6,
-    "passed":4,
-    "failed":2
+  "03-02-2024": {
+    "total": 6,
+    "passed": 4,
+    "failed": 2
   },
-  "04-02-2024":{
-    "total":6,
-    "passed":5,
-    "failed":1
+  "04-02-2024": {
+    "total": 6,
+    "passed": 5,
+    "failed": 1
   },
-  "05-02-2024":{
-    "total":8,
-    "passed":8,
-    "failed":0
+  "05-02-2024": {
+    "total": 8,
+    "passed": 8,
+    "failed": 0
   },
-  "06-02-2024":{
-    "total":8,
-    "passed":6,
-    "failed":2
+  "06-02-2024": {
+    "total": 8,
+    "passed": 6,
+    "failed": 2
   },
-  "07-02-2024":{
-    "total":8,
-    "passed":6,
-    "failed":2
+  "07-02-2024": {
+    "total": 8,
+    "passed": 6,
+    "failed": 2
   },
-  "08-02-2024":{
-    "total":8,
-    "passed":6,
-    "failed":2
-  },
-  "09-02-2024":{
-    "total":8,
-    "passed":6,
-    "failed":2
-  },
-  "10-02-2024":{
-    "total":8,
-    "passed":6,
-    "failed":2
-  },
-  "11-02-2024":{
-    "total":8,
-    "passed":6,
-    "failed":2
+  "08-02-2024": {
+    "total": 8,
+    "passed": 6,
+    "failed": 2
   }
 }
