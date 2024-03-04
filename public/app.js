@@ -32,7 +32,7 @@ fetch("./sample.json")
 
       document.getElementById("totalNum").innerHTML = totalNumber;
       document.getElementById("successNum").innerHTML = successNumber;
-      document.getElementById("failNum").innerHTML = failNumber;
+      document.getElementById("failnum").innerHTML = failNumber;
       // console.log(fs.existsSync(homePath + testJob.name + "/microservices/webbff/test/e2e/goReportJSONFile/getProduct_output.json"))
       // await fetch(homePath + testJob.name + "/microservices/webbff/test/e2e/goReportJSONFile/getProduct_output.json")
       //   .then(response => response.json()
