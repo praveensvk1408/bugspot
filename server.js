@@ -5,7 +5,6 @@ const app = express();
 const homePath = "/home/ubuntu/.jenkins/workspace/"
 const port = process.env.PORT || 3000;
 app.use(express.static(path.join(__dirname, "public")));
-// sendFile will go here
 app.get('/', function (req, res) {
   res.render(path.join(__dirname, 'public/index.html'));
 });
@@ -17,7 +16,6 @@ app.get("/data/:name", (req, res) => {
     const data = JSON.parse(jsonString)
     res.json(data)
   } else {
-    console.log("does not exist")
     res.json({ successNum: 0, failNum: 0 })
   }
 }
