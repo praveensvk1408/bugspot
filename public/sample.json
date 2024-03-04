@@ -1,0 +1,19 @@
+{
+  "jobs": [
+    {
+      "name": "HTMLReportTestJob1",
+      "apiType": "WebBFF",
+      "htmlurl": "http://43.88.77.122:8080/view/DeleteProjects(UI)/job/HTMLReportTestJob1/HTML_20Report/"
+    },
+    {
+      "name": "HTMLReportTestJob2",
+      "apiType": "WebBFF",
+      "htmlurl": "http://43.88.77.122:8080/view/DeleteProjects(UI)/job/HTMLReportTestJob2/HTML_20Report/"
+    },
+    {
+      "name": "HTMLReportTestJob3",
+      "apiType": "WebBFF",
+      "htmlurl": "http://43.88.77.122:8080/view/DeleteProjects(UI)/job/HTMLReportTestJob3/HTML_20Report/"
+    }
+  ]
+}
